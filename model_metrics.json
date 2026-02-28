@@ -1,0 +1,86 @@
+{
+  "train_accuracy": 0.80875,
+  "test_accuracy": 0.635,
+  "roc_auc": 0.678335870116692,
+  "confusion_matrix": [
+    [
+      100,
+      46
+    ],
+    [
+      27,
+      27
+    ]
+  ],
+  "feature_importance": [
+    {
+      "feature": "is_monthly_contract",
+      "importance": 0.1540409119457453
+    },
+    {
+      "feature": "has_online_security",
+      "importance": 0.12800357666163656
+    },
+    {
+      "feature": "monthly_charges",
+      "importance": 0.12238825582265292
+    },
+    {
+      "feature": "avg_monthly_spend",
+      "importance": 0.11153243335900412
+    },
+    {
+      "feature": "tenure",
+      "importance": 0.09528823248080766
+    },
+    {
+      "feature": "total_charges",
+      "importance": 0.08652427696700409
+    },
+    {
+      "feature": "has_tech_support",
+      "importance": 0.07103509052855024
+    },
+    {
+      "feature": "is_yearly_contract",
+      "importance": 0.05230779889330559
+    },
+    {
+      "feature": "payment_electronic_check",
+      "importance": 0.046020542536896955
+    },
+    {
+      "feature": "is_two_year_contract",
+      "importance": 0.03518631028681319
+    },
+    {
+      "feature": "is_high_spender",
+      "importance": 0.019854189259874297
+    },
+    {
+      "feature": "paperless_billing",
+      "importance": 0.017476588903191613
+    },
+    {
+      "feature": "has_fiber",
+      "importance": 0.01321271828023353
+    },
+    {
+      "feature": "payment_credit_card",
+      "importance": 0.01312319667653301
+    },
+    {
+      "feature": "payment_bank_transfer",
+      "importance": 0.012463047210768132
+    },
+    {
+      "feature": "has_streaming",
+      "importance": 0.012166946618958422
+    },
+    {
+      "feature": "is_new_customer",
+      "importance": 0.009375883568024419
+    }
+  ],
+  "timestamp": "2026-02-28T17:53:17.854960"
+}
