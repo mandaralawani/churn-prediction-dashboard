@@ -18,7 +18,7 @@ def migrate_database():
     # Source database (local)
     print("📥 Source: Local PostgreSQL")
     source_password = input("Enter your LOCAL postgres password: ")
-    source_url = f'postgresql://postgres:{source_password}@localhost/churn_db'
+    source_url = f'postgresql://postgres:learn@localhost/churn_db'
     
     # Destination database (cloud)
     print("\n📤 Destination: Cloud Database")
